@@ -1,0 +1,68 @@
+.topNavContainer {
+  gap: 50px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  justify-content: space-between;
+  box-shadow: 0 2px var(--line-color);
+}
+
+.topNav {
+  height: inherit;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.active {
+  border: 2px solid red;
+  height: 100%;
+}
+
+.topBar {
+  z-index: 2;
+  height: 100%;
+  margin-top: 0;
+  display: flex;
+  font-size: 0.8rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.topBar:hover {
+  box-shadow: 0 2px var(--primary-color);
+}
+
+.topBar h5 {
+  display: flex;
+  font-weight: 300;
+  align-items: center;
+  color: var(--text-dark-color);
+}
+
+.topItem {
+  gap: 20px;
+  display: flex;
+}
+
+.country {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 30px;
+  color: var(--text-dark-color);
+}
+
+.btn {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  padding: 8px 50px;
+  border-radius: 5px;
+  color: var(--background-color);
+  background-color: var(--primary-color);
+}

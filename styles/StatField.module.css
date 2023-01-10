@@ -1,0 +1,28 @@
+
+.fieldItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fieldItem:hover {
+    background-color: var(--background-color);
+}
+
+.fieldItem span {
+    font-size: .8rem;
+}
+
+.itemDetail {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.statProfile {
+    object-fit: cover;
+    border-radius: 360%;
+    object-position: center;
+
+}
+

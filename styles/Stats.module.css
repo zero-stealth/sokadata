@@ -1,0 +1,108 @@
+.statContainer {
+  height: 100%;
+  padding: 20px 0;
+}
+
+.footballLive {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.liveTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.liveTitle h3 {
+  font-size: .9rem;
+  text-transform: capitalize;
+}
+
+.arrowContainer {
+  gap: 10px;
+  display: flex;
+}
+
+.arrowRight,
+.arrowLeft {
+  width: 20px;
+  height: 20px;
+  fill: var(--text-dark-color);
+}
+
+.arrowLeft {
+  transform: scaleX(-1);
+}
+
+.statProfile {
+    object-fit: cover;
+    border-radius: 360%;
+    object-position: center;
+}
+
+.scores {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.scores hr {
+    height: 0;
+    width: 20px;
+    border-bottom: 1px solid var(--text-dark-color);
+}
+
+.titleComponent {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.liveResult {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--background-color);
+}
+
+
+.result {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.countryTips {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.countryContainer {
+  padding: 10px 0;
+  gap: 15px;
+  height: 50%;
+  display: flex;
+  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  flex-direction: column;
+
+}
+
+.countryData {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.countryContainer h4 {
+  font-size: .7rem;
+  text-transform: capitalize;
+}

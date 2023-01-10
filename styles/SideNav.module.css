@@ -1,0 +1,87 @@
+.sideComponent {
+    gap: 20px;
+    height: 100%;
+    flex: column;
+    display: flex;
+    padding: 0 15px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.topContainer {
+    height: 80px;
+    width:inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+
+}
+
+
+.logo {
+    height: 120px;
+    width: 120px;
+}
+
+.sideNav {
+    gap: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+
+.sideLink {
+    width: 100%;
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--dark-color);
+    justify-content: space-between;
+}
+
+.sideLink:hover , .sideLink:active {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.sideLink:hover .fire {
+    fill: var(--background-color);
+}
+
+.sideLink:hover .rugby {
+    fill: var(--background-color);
+}
+
+.sideLink:hover .football {
+    fill: var(--background-color);
+}
+
+.sideLink span {
+    font-size: .7rem;
+}
+
+.resize, .fire , .rugby , .football {
+    fill: var(--text-dark-color);
+}
+
+.fire , .rugby , .football {
+    height: 24px;
+    width: 24px;   
+}
+
+.links {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

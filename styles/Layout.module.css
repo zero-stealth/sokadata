@@ -1,0 +1,20 @@
+.appLayout {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    position: fixed;
+    
+}
+
+.side {
+    flex: var(--side-width);
+    border-radius: 0 15px 15px 0;
+    background-color: var(--background-color);
+    box-shadow: rgb(247, 247, 247) 0px 8px 24px;
+}
+
+.main {
+    flex: calc(100% - var(--side-width));
+}
